@@ -6,3 +6,11 @@
         Veti primi: 'center'
         Veti printa: 'CeNtEr'
 """
+x = input()
+y = ''
+for i in range(len(x)):
+    if i % 2 == 0:
+        y = y + x[i].upper()
+    else:
+        y = y + x[i]
+print(y)
