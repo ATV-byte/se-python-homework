@@ -13,3 +13,15 @@
         False
         False
 """
+x = input()
+vf = True
+while x != 'exit':
+    y = int(x)
+    if y % 2 == 0:
+        vf = True
+        print(vf)
+    else:
+        vf = False
+        print(vf)
+    x = input()
+
