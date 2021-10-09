@@ -6,3 +6,6 @@
         Veti primi: 'cmi'
         Veti printa: ('c', 'm', 'i')
 """
+x = input()
+print(tuple(x))
+
