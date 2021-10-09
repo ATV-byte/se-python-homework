@@ -6,3 +6,10 @@
         Veti primi: 2 si 3
         Veti printa: 8
 """
+x = int(input())
+y = int(input())
+r = 1
+for i in range(y):
+    r = r * x
+
+print(r)
