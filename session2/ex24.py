@@ -14,3 +14,8 @@
         Veti primi: 1232
         Veti printa: False
 """
+x = input()
+vf = False
+if x == x[::-1]:
+    vf = True
+print(vf)
