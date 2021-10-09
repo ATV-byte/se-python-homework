@@ -8,4 +8,3 @@
 """
 x = input()
 print(tuple(x))
-
