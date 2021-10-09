@@ -15,7 +15,7 @@
         Veti printa: True
 """
 x = input()
+vf = False
 if x == x[::-1]:
-    print('True')
-else:
-    print('False')
+    vf = True
+print(vf)
