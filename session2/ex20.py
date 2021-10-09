@@ -16,3 +16,13 @@
             2: 'i'
         }
 """
+text = input()
+x = int(input())
+
+# In varaibila d1 avem un dictionar gol
+d1 = {}
+
+for i in range(x):
+    d1[i] = text[i]
+
+print(d1)
