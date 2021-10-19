@@ -11,3 +11,12 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+
+l = [1, 2, 3]
+
+
+def func(x):
+    return [i+1 for i in x]
+
+
+print(func(l))
