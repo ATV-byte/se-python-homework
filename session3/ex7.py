@@ -12,3 +12,7 @@
     Observatii:
         - functia trebuie sa aiba MAXIM 1 linie de cod ca si body
 """
+def add_prefix_sufix(pfx, word, sfx):
+    return pfx + word + sfx
+
+print(add_prefix_sufix('a','x','b'))
