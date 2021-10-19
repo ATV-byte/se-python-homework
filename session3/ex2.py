@@ -12,8 +12,12 @@
     Momentan el este:
     ('cmi1', 'cmi2')
 """
+def deco(f):
+    def wrapper(arg1, arg2):
+        return arg2, arg1
+    return wrapper
 
-
+@deco
 def func(param1, param2):
     return param1, param2
 
