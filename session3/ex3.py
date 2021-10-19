@@ -10,6 +10,10 @@
         - pentru x = 3 --> [0, 1, 2]
 """
 
-
+l = []
 def func(x):
-    pass
+    if x > 0:
+        func(x-1)
+        l.append(x-1)
+func(7)
+print(l)
