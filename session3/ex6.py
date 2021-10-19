@@ -7,3 +7,10 @@
         - func('aabbcc')
             ---> 'bbccdd'
 """
+l = 'aabbcc'
+
+def func(x):
+    return [chr(ord(i)+1) for i in x]
+
+
+print(func(l))
